@@ -150,36 +150,6 @@ To uninstall:
 ./uninstall-cursor.sh
 ```
 
-## Antigravity (VS Code fork)
-
-### One-Liner Install (Recommended)
-
-The fastest way to install:
-
-#### macOS/Linux
-
-```bash
-curl -fsSL https://raw.githubusercontent.com/bwya77/vscode-dark-islands/main/bootstrap-antigravity.sh | bash
-```
-
-#### Manual Clone Install (Antigravity, macOS/Linux)
-
-```bash
-git clone https://github.com/bwya77/vscode-dark-islands.git islands-dark
-cd islands-dark
-./install-antigravity.sh
-```
-
-The Antigravity installer is a parallel of `install.sh` that targets Antigravity-specific paths (`~/.antigravity-ide/extensions/`, `~/Library/Application Support/Antigravity IDE/User/` on macOS, `~/.config/Antigravity IDE/User/` on Linux) and uses the `agy-ide` CLI instead of `code`.
-
-> **Note:** Older deprecated Antigravity versions (<2.0) used legacy config paths, which are not currently supported. If you use an older version, manually back up your settings, install the theme yourself, and copy the relevant parts of `settings.json` into your Antigravity settings.
-
-To uninstall:
-
-```bash
-./uninstall-antigravity.sh
-```
-
 ### Manual Installation
 
 If you prefer to install manually, follow these steps:
@@ -365,13 +335,6 @@ irm https://raw.githubusercontent.com/bwya77/vscode-dark-islands/main/uninstall.
 # If you still have the repo cloned:
 cd islands-dark
 ./uninstall-cursor.sh
-```
-
-**Antigravity (macOS/Linux):**
-```bash
-# If you still have the repo cloned:
-cd islands-dark
-./uninstall-antigravity.sh
 ```
 
 The uninstall script will:
