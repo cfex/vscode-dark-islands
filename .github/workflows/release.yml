@@ -63,6 +63,7 @@ jobs:
           cp install.sh uninstall.sh bootstrap.sh "$BUNDLE_DIR/" 2>/dev/null || true
           cp install.ps1 uninstall.ps1 bootstrap.ps1 "$BUNDLE_DIR/" 2>/dev/null || true
           cp install-cursor.sh uninstall-cursor.sh bootstrap-cursor.sh "$BUNDLE_DIR/" 2>/dev/null || true
+          cp install-antigravity.sh uninstall-antigravity.sh bootstrap-antigravity.sh "$BUNDLE_DIR/" 2>/dev/null || true
 
           # Make scripts executable
           chmod +x "$BUNDLE_DIR"/*.sh 2>/dev/null || true
